@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Phlogger</string>
+    <string name="main_button_text">+ New Phlog</string>
+    <string name="no_title">No title</string>
+    <string name="no_text">No text</string>
+    <string name="save">save</string>
+    <string name="delete">Delete</string>
+    <string name="no_time_yet">No time yet</string>
+    <string name="no_description_yet">No description yet</string>
+    <string name="Camera">Camera (Photo)</string>
+    <string name="camera_photo_name">Photo.jpeg</string>
+    <string name="camera_photo_name_zero">Photo</string>
+    <string name="camera_photo_name_one">.jpeg</string>
+    <string name="gallery">Gallery</string>
+    <string name="not_available">N/A</string>
+    <string name="email">Email Entry</string>
+    <string name="dismiss_button_label">Dismiss</string>
+    <string name="video">Video</string>
+    <string name="camera_video_name">Video.mp4</string>
+    <string name="play_vid_button_label">Play</string>
+    <string name="pause_vid_button_label">Pause</string>
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <EditText android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/no_title">
+    </EditText>
+    <EditText android:id="@+id/description_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/no_text">
+    </EditText>
+<LinearLayout
+    style="@style/ButtonRow">
+    <ImageView
+        android:layout_width="@dimen/view_width"
+        android:layout_height="@dimen/view_height"
+        android:id="@+id/the_image"
+        android:onClick="ClickMaster"
+        >
+    </ImageView>
+
+    <VideoView
+        android:id="@+id/vidview"
+        android:layout_width="@dimen/view_width"
+        android:layout_height="@dimen/view_height"
+       >
+
+    </VideoView>
+
+</LinearLayout>
+
+
+    <Button android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:clickable="false"
+        android:onClick="ClickMaster">
+    </Button>
+    <Button android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:clickable="false"
+        android:onClick="ClickMaster">
+    </Button>
+    <Button android:id="@+id/camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Camera"
+        android:clickable="false"
+        android:onClick="ClickMaster">
+    </Button>
+    <Button android:id="@+id/video_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/video"
+        android:clickable="false"
+        android:onClick="ClickMaster">
+    </Button>
+    <Button android:id="@+id/gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gallery"
+        android:clickable="false"
+        android:onClick="ClickMaster">
+    </Button>
+    <Button android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:clickable="false"
+        android:onClick="ClickMaster">
+    </Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_view"
+        android:text=""
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/coordinates"
+        android:text=""
+       >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addy_view"
+        android:text=""
+       >
+    </TextView>
+</LinearLayout>
